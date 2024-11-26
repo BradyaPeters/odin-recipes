@@ -1,0 +1,50 @@
+/* index.html */
+
+.main-container {
+    border: 1px solid black;
+    padding: 15px;
+    display: inline-block;
+}
+
+.main-container h1 {
+    font-size: 1.3em;
+}
+
+.main-container a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.main-container a:hover {
+    color: darkgray;
+}
+
+/* lasagna.html */
+
+.info-container h1 {
+    text-align: center;
+    box-shadow: 0 0 1px 1px black;
+}
+
+.info-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.description-container {
+    box-shadow: 0 0 4px 2px black;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}   
+    .description-container p {
+        padding-left: 5px;
+    }
+
+.ingredients-container,
+.steps-container {
+    box-shadow: 0 0 4px 4px gray;
+    padding-bottom: 15px;
+}
